@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing Suite">
+
+ <listeners>
+   <listener class-name="utilities.ReportClass"/>
+ </listeners>
+   
+  <test name="Test">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+     
+      <class name="testCases.Demo123"/>
+        <class name="testCases.TC_DDT_002"/>
+          <class name="testCases.TC_LoginTest_001"/>
+     
+    </classes>
+    
+  </test> <!-- Test -->
+  
+
+  
+</suite> <!-- Suite -->

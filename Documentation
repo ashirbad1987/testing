@@ -1,0 +1,110 @@
+Phase 1: Implementation
+-----------------------
+Create Maven Project.
+Update POM.xml
+Create page Objects
+Create Basic Test Cases.
+Add logs to test cases
+Read common values from properties file.
+Run test cases on desired browser.
+Add extent report.
+Create date driven test cases.
+Adding new test cases.
+
+
+For Logging below settings needs to be done.
+============================================
+pre-requisites.
+--------------
+Log4j.jar:- This needs to be added in POM.xml in order to make sure the necessary jar files are available in the dependencies folder.
+Log4j.properties:- This needs to be added in the project path.
+Property configurator is used to register the log4j.properties file.
+After the logging mechanism is defined then a log folder will be created under the project path and all the logs will be updated in it.
+After refreshing the project an Automation folder will be created.
+
+
+Properties file
+===============
+All the project reusable values can be extracted from the properties file.
+Values are kept in key-value pairs.
+Even the driver paths can be extracted from the properties file.
+In the properties file the " ./ " represents the project home directory.
+System.getProperty("user.dir") :- can only be used in java class
+./ :- can be used in both java class and properties file also.
+  
+  
+Utility file(readConfigData)
+============================
+Read all the variable data from the config.properties file and supply to the program.
+For all the keys defined in the config.properties file there is an entry in the utility file.
+Hence in future if there is any values added then we need to update the utility file.  
+So utility class will read the vales from the properties file and will provide the values to the base class. Hence that is how the communication will happen
+
+Browser Selection
+=================
+
+Add extent report
+=================
+Add jar files to project.
+Add extent-config.xml file to the project location.
+Created the Listener class called report.jav file, used to generate extent report --->utility file.
+Add entry in the xml file to add the report.java class
+
+Integration of the test cases and the listener class to be done in the xml file so that the entire test cases added
+to the project can integrate with the same listener class.
+
+
+Test Running Ways
+=================
+Run the test case using testng.xml
+Run the test case using pom.xml
+Run the test case using run.bat file.
+Run the test case using Jenkins.
+Running "run.bat" file
+----------------------
+CD "path of the batch file"
+mvn clean install
+
+Running test cases in Jenkins
+-----------------------------
+1.Creating a free style project.
+newItem > item name(Project Name) > freeStyle project  > Build.
+
+
+Repository
+==========
+git is a local repository
+github is a remote repository.
+
+ 
+ Jenkins Setup
+ =============
+ 
+Setting  java
+--------------
+Manage Jenkins > Global Tool Configuration > JDK> set the path for Java_home.
+
+ Setting the path for Maven
+ ---------------------------
+ Create a new Item >maven Project
+ Access the created project > Configure >Build >Set the full path of POM.xml.
+ Set the goals as clean install.
+ Apply and Save.
+ 
+ 
+ Access the project and click on Build Now.
+ 
+
+
+Jenkins + Maven +  GIT HUB setup
+------------------------------
+Real time the jenkins is setup in the Devops environment and we are only given the IP address of jenkins.
+And we cannot move our project to jenkins server as it is Devops environment.
+Hence our prject will be on Some repository/remote repository(GIT hub) which is an hosted environment and the path of the remote repository will be provided to jenkins
+from where the test schedules will be maintained and will be triggered accordingly.
+So in jenkins we will set the path of GITHUB.
+ 
+ 1:38:59
+
+
+
