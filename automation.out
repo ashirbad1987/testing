@@ -1395,3 +1395,48 @@
 2019-08-19 00:01:17 INFO  TestBase:32 - Login page object is created
 2019-08-19 00:01:18 INFO  TestBase:34 -  Username and password is accessed and Logged into the application
 2019-08-19 00:01:18 INFO  TestBase:47 - Test Passed
+2019-08-25 20:04:59 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:05:00 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:05:00 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:05:04 INFO  TestBase:55 - Url is launched
+2019-08-25 20:05:04 INFO  TestBase:37 - Login page object is created
+2019-08-25 20:05:21 INFO  AlertHelper:50 - True
+2019-08-25 20:05:21 INFO  AlertHelper:29 - Alert is Accepted
+2019-08-25 20:05:24 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:05:25 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:05:25 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:05:27 INFO  TestBase:55 - Url is launched
+2019-08-25 20:05:34 WARN  TestBase:52 - Login Failed
+2019-08-25 20:05:37 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:05:38 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:05:38 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:05:41 INFO  TestBase:55 - Url is launched
+2019-08-25 20:05:49 WARN  TestBase:52 - Login Failed
+2019-08-25 20:05:51 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:05:52 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:05:52 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:07:18 INFO  TestBase:55 - Url is launched
+2019-08-25 20:07:25 WARN  TestBase:52 - Login Failed
+2019-08-25 20:07:28 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:07:29 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:07:29 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:07:32 INFO  TestBase:55 - Url is launched
+2019-08-25 20:07:38 WARN  TestBase:52 - Login Failed
+2019-08-25 20:07:41 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:07:42 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:07:42 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:07:45 INFO  TestBase:55 - Url is launched
+2019-08-25 20:07:52 WARN  TestBase:52 - Login Failed
+2019-08-25 20:07:54 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:07:55 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:07:55 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:07:58 INFO  TestBase:55 - Url is launched
+2019-08-25 20:07:58 INFO  TestBase:17 - Login page object is created
+2019-08-25 20:07:59 INFO  TestBase:19 -  Username and password is accessed and Logged into the application
+2019-08-25 20:08:02 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 20:08:03 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 20:08:03 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 20:08:06 INFO  TestBase:55 - Url is launched
+2019-08-25 20:08:06 INFO  TestBase:32 - Login page object is created
+2019-08-25 20:08:07 INFO  TestBase:34 -  Username and password is accessed and Logged into the application
+2019-08-25 20:08:07 INFO  TestBase:47 - Test Passed
