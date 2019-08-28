@@ -1440,3 +1440,20 @@
 2019-08-25 20:08:06 INFO  TestBase:32 - Login page object is created
 2019-08-25 20:08:07 INFO  TestBase:34 -  Username and password is accessed and Logged into the application
 2019-08-25 20:08:07 INFO  TestBase:47 - Test Passed
+2019-08-25 23:09:53 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-25 23:09:54 INFO  TestBase:51 - Driver maximization done:
+2019-08-25 23:09:54 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-25 23:09:57 INFO  TestBase:55 - Url is launched
+2019-08-25 23:09:57 INFO  TestBase:37 - Login page object is created
+2019-08-25 23:10:15 INFO  AlertHelper:56 - False
+2019-08-25 23:10:15 INFO  TestBase:54 - Customer registration successful:
+2019-08-26 23:15:41 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-26 23:15:42 INFO  TestBase:51 - Driver maximization done:
+2019-08-26 23:15:42 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-26 23:16:03 INFO  TestBase:55 - Url is launched
+2019-08-26 23:16:03 INFO  TestBase:37 - Login page object is created
+2019-08-26 23:17:40 INFO  TestBase:49 - Chrome Driver object is created:
+2019-08-26 23:17:41 INFO  TestBase:51 - Driver maximization done:
+2019-08-26 23:17:41 INFO  TestBase:53 - Timeout is set to 10 secs:
+2019-08-26 23:18:02 INFO  TestBase:55 - Url is launched
+2019-08-26 23:18:02 INFO  TestBase:37 - Login page object is created

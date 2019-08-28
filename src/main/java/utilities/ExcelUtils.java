@@ -22,12 +22,12 @@ public class ExcelUtils {
 	public static XSSFRow          row ;   
 	public static XSSFCell         cell ;
 	
-	public static int getRowCount(String excelPath, String excelName) {
+	public static int getRowCount(String excelPath, String excelSheetName) {
 		
 		try {
 		fis= new FileInputStream(excelPath);
 		wb = new XSSFWorkbook(fis);
-		sheet=wb.getSheet(excelName);
+		sheet=wb.getSheet(excelSheetName);
 		int rowCount=sheet.getLastRowNum();
 		return rowCount;
 		}
@@ -38,12 +38,12 @@ public class ExcelUtils {
 		return 0;
 	}
 
-	public static int getCellCount(String excelPath, String excelName, int rownum) {
+	public static int getCellCount(String excelPath, String excelSheetName, int rownum) {
 		
 		try {
 		fis=new FileInputStream(excelPath);
 		wb=new XSSFWorkbook(fis);
-		sheet=wb.getSheet(excelName);
+		sheet=wb.getSheet(excelSheetName);
 		row=sheet.getRow(rownum);
 		int colCount=sheet.getRow(1).getLastCellNum();
 		return colCount;
@@ -55,12 +55,12 @@ public class ExcelUtils {
 		return 0;
 	}
 	
-	public static String getCellData(String excelPath, String excelName, int rownum, int cellno) {
+	public static String getCellData(String excelPath, String excelSheetName, int rownum, int cellno) {
 		
 		try {
 		fis=new FileInputStream(excelPath);
 		wb= new XSSFWorkbook(fis);
-		sheet=wb.getSheet(excelName);
+		sheet=wb.getSheet(excelSheetName);
 		row=sheet.getRow(rownum);
 		cell=row.getCell(cellno);
 		
@@ -81,13 +81,13 @@ public class ExcelUtils {
 		return data;
 	}
 	
-	public void setData(String excelPath, String excelName, int rownum, int cellnum, String data) {
+	public static void setData(String excelPath, String excelSheetName, int rownum, int cellnum, String data) {
 		
 		try {
 			fis=new FileInputStream(excelPath); 
 			fos=new FileOutputStream(excelPath);
 			wb=new XSSFWorkbook(fis);
-			sheet=wb.getSheet(excelName);
+			sheet=wb.getSheet(excelSheetName);
 			row=sheet.getRow(rownum);
 			cell=row.getCell(cellnum);
 			cell.setCellValue(data);
