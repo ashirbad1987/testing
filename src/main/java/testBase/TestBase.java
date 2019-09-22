@@ -29,7 +29,7 @@ import utilities.ReadConfigData;
 
 public class TestBase {
 	
-	public static WebDriver driver;
+	public WebDriver driver;
 	public static Logger log;
 	ReadConfigData ref= new ReadConfigData();
 	public String url=ref.getApplicationURL();
@@ -81,10 +81,10 @@ public class TestBase {
 	}
 	
 	
-	@AfterMethod
+/*	@AfterTest
 	public void tearDown() {
 		driver.quit();
-	}
+	}*/
 	
 	
 	public void captureScreen(WebDriver driver, String tname)  {

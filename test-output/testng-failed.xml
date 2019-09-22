@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Testing Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="utilities.ReportClass"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Demo123">
+      <class name="testCases_Amazon.TestLogin">
         <methods>
-          <include name="TestDataProvider"/>
+          <include name="setUp"/>
+          <include name="workFlow"/>
         </methods>
-      </class> <!-- testCases.Demo123 -->
+      </class> <!-- testCases_Amazon.TestLogin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Automation Testing Suite] -->

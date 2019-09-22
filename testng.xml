@@ -10,10 +10,11 @@
     <parameter name="browser" value="chrome"/>
     <classes>
      
-      <class name="testCases.Demo123"/>
- <!--       <class name="testCases.TC_DDT_002"/> -->
-   <!--        <class name="testCases.TC_LoginTest_001"/> -->
+ <!--     <class name="testCases.Demo123"/>               -->
+ <!--       <class name="testCases.TC_DDT_002"/>          -->
+ <!--        <class name="testCases.TC_LoginTest_001"/> -->
      
+     <class name= "testCases_Amazon.TestLogin"/> 
     </classes>
     
   </test> <!-- Test -->

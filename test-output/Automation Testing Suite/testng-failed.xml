@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Testing Suite]">
+  <parameter name="browser" value="chrome"/>
   <listeners>
     <listener class-name="utilities.ReportClass"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="browser" value="FireFOX"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_LoginTest_001">
+      <class name="testCases_Amazon.TestLogin">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="test2"/>
+          <include name="workFlow"/>
         </methods>
-      </class> <!-- testCases.TC_LoginTest_001 -->
-      <class name="testCases.TC_DDT_002">
-        <methods>
-          <include name="tearDown"/>
-          <include name="TestDataProvider"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.TC_DDT_002 -->
-      <class name="testCases.Demo123">
-        <methods>
-          <include name="TestDataProvider" invocation-numbers="0"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testCases.Demo123 -->
+      </class> <!-- testCases_Amazon.TestLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Automation Testing Suite] -->
