@@ -5,7 +5,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import helper.Alert.AlertHelper;
-import pageObjects.AddCustomerPage;
+import pageObjects.AddCustomerPage1;
 import pageObjects.LoginPage;
 import testBase.TestBase;
 import utilities.ExcelUtils;
@@ -13,7 +13,7 @@ import utilities.ExcelUtils;
 public class Demo123 extends TestBase{
 
 	LoginPage login;
-	AddCustomerPage addCust;
+	AddCustomerPage1 addCust;
 	AlertHelper ah;
 	@DataProvider(name="TestData")
 	public String[][] getData() {
@@ -37,7 +37,7 @@ public class Demo123 extends TestBase{
 		log.info("Login page object is created");
 		login.LoginFunctionality(username, password);
 		
-     addCust=new AddCustomerPage(driver);
+     addCust=new AddCustomerPage1(driver);
      addCust.addCustomer(CustomerName, Day, Month, Year, Address,City,State, Pin, MobileNumber, Password);
     
      //This line is to verify that any field is not valid.

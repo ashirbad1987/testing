@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation Testing Suite" duration-ms="26415" started-at="2019-09-22T14:57:14Z" finished-at="2019-09-22T14:57:40Z">
+  <suite name="Automation Testing Suite" duration-ms="26857" started-at="2019-09-23T18:54:02Z" finished-at="2019-09-23T18:54:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="26415" started-at="2019-09-22T14:57:14Z" finished-at="2019-09-22T14:57:40Z">
+    <test name="Test" duration-ms="26857" started-at="2019-09-23T18:54:02Z" finished-at="2019-09-23T18:54:28Z">
       <class name="testCases_Amazon.TestLogin">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testCases_Amazon.TestLogin@3bfdc050]" name="setUp" is-config="true" duration-ms="5525" started-at="2019-09-22T20:27:14Z" finished-at="2019-09-22T20:27:20Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testCases_Amazon.TestLogin@3bfdc050]" name="setUp" is-config="true" duration-ms="5262" started-at="2019-09-24T00:24:02Z" finished-at="2019-09-24T00:24:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="workFlow()[pri:0, instance:testCases_Amazon.TestLogin@3bfdc050]" name="workFlow" duration-ms="20743" started-at="2019-09-22T20:27:20Z" finished-at="2019-09-22T20:27:40Z">
+        <test-method status="PASS" signature="workFlow()[pri:0, instance:testCases_Amazon.TestLogin@3bfdc050]" name="workFlow" duration-ms="21432" started-at="2019-09-24T00:24:07Z" finished-at="2019-09-24T00:24:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- workFlow -->

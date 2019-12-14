@@ -13,10 +13,10 @@ import org.openqa.selenium.support.PageFactory;
 
 import testBase.TestBase;
 
-public class AddCustomerPage {
+public class AddCustomerPage1 {
 
 	WebDriver driver;
-	public AddCustomerPage(WebDriver driver) {
+	public AddCustomerPage1(WebDriver driver) {
 		this.driver=driver;
 		PageFactory.initElements(driver,this);
 	}
